@@ -4,8 +4,7 @@
 collision check are performed by `x < 0` and `tan(0.5) < y/x < tan(0.5)`<br>
 where tangent is approximated from its taylor series and stored as a constant.<br>
 <br>
-**Relevant information**
-
+<b>Relevant information</b>
 ```javascript
 angle=1rad
 τ=all_rays/hit_rays
