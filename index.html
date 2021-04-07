@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head><title>default</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculating pi using casting rays</h1>
+    <div id="wrapper">
+        <canvas id="canvas"></canvas>
+        <canvas id="canvas1"></canvas>
+    </div>
+    <h2>Brief description</h2>
+    <div>
+        collision check are performed by <pre class="inline">x < 0</pre> and <pre class="inline">tan(0.5) < y/x < tan(0.5)</pre><br>
+        where tangent is approximated from its taylor series and stored as a constant.<br>
+        <br>
+        <b>Relevant information</b>
+        <pre class="wide">
+angle=1rad
+τ=all_rays/hit_rays
+π=τ/2</pre>
+    </div>
+    <a target="_blank" href="https://codepen.io/MartianLord/full/NWdajob">Demo</a><br>
+    <a target="_blank" href="https://github.com/martian17/diffusion-pi">Github</a><br>
+    <a target="_blank" id="github" href="https://github.com/martian17/diffusion-pi">Fork me on Github</a>
+    <script src="main.js"></script>
+</body>
